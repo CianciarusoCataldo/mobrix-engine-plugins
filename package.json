@@ -1,0 +1,64 @@
+{
+  "name": "mobrix-engine-plugins",
+  "version": "1.0.1",
+  "description": "Official plugins for MoBrix-engine system",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "config/rollup.build.config.js"
+  ],
+  "scripts": {
+    "build": "rollup -c ./config/rollup.build.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CianciarusoCataldo/mobrix-engine-plugins.git"
+  },
+  "author": "Cataldo Cianciaruso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CianciarusoCataldo/mobrix-engine-plugins/issues"
+  },
+  "homepage": "https://github.com/CianciarusoCataldo/mobrix-engine-plugins#readme",
+  "peerDependencies": {
+    "mobrix-engine-plugin-epics": "^1.0.2",
+    "mobrix-engine-plugin-localization": "^1.0.0",
+    "mobrix-engine-plugin-modal": "^1.0.1",
+    "mobrix-engine-plugin-router": "^1.0.0",
+    "mobrix-engine-plugin-themer": "^1.0.2",
+    "mobrix-engine-plugin-ui": "^1.0.1",
+    "mobrix-engine-plugin-url-checker": "^1.0.0",
+    "mobrix-engine-tools": "^1.0.3",
+    "mobrix-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@types/jest": "^27.4.0",
+    "@types/mocha": "^9.0.0",
+    "babel-jest": "^27.4.6",
+    "enzyme": "^3.11.0",
+    "jest": "^27.4.7",
+    "jest-transform-stub": "^2.0.0",
+    "mobrix-engine-plugin-epics": "^1.0.2",
+    "mobrix-engine-plugin-localization": "^1.0.0",
+    "mobrix-engine-plugin-modal": "^1.0.1",
+    "mobrix-engine-plugin-router": "^1.0.0",
+    "mobrix-engine-plugin-themer": "^1.0.2",
+    "mobrix-engine-plugin-ui": "^1.0.1",
+    "mobrix-engine-plugin-url-checker": "^1.0.0",
+    "mobrix-engine-tools": "^1.0.3",
+    "mobrix-utils": "^1.0.0",
+    "rollup": "^2.44.0",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-banner2": "^1.2.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "ts-jest": "^27.1.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.2.3"
+  }
+}
